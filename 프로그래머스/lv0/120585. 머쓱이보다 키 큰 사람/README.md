@@ -68,3 +68,14 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+<pre>
+function solution(array, height) {
+    var c = 0;
+    
+    array.map(a => {
+        if(a>height) c++;
+    });
+    
+    return c;
+}
+</pre>

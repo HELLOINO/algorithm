@@ -71,3 +71,18 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+<pre>
+function solution(n, n1, n2) {
+    var a = [];
+    
+    for(var i = 0;; i++) {
+        if(i >= n1 && i <= n2) {
+            a.push(n[i]);
+        } else if(i > n2) {
+            break;
+        }
+    }
+    
+    return a;
+}
+</pre>

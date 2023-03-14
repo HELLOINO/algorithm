@@ -69,11 +69,11 @@
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
 <pre>
-function solution(a, n) {
+function solution(array, n) {
     var an = 0;
     
-    for(var i = 0; i < a.length; i++) {
-        a[i]==n?
+    for(var i = 0; i < array.length; i++) {
+        array[i]==n?
             an++:null;
     }
     return an;

@@ -66,3 +66,12 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+<pre>
+function solution(m) {
+    var b = 0;
+    Array.from(m).map(a => {
+        b+=2;
+    });
+    return b;
+}
+</pre>

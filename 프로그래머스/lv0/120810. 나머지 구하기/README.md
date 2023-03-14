@@ -67,3 +67,11 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+<pre>
+function solution(num1, num2) {
+    for(; num1 >= num2;) {
+        num1 -= num2;
+    }
+    return num1;
+}
+</pre>

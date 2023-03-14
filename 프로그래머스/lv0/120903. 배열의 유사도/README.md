@@ -69,3 +69,14 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+<pre>
+function solution(s1, s2) {
+    var c = 0;
+    s1.map(a => {
+        s2.map(b => {
+           if(a == b) c++; 
+        });
+    });
+    return c;
+}
+</pre>

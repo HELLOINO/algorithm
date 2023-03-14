@@ -72,3 +72,14 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+<pre>
+function solution(m) {
+    var b = 0;
+    Array.from(m).map(a => {
+       if(a*1) {
+           b += a*1;
+       } 
+    });
+    return b;
+}
+</pre>

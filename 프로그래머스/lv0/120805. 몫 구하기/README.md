@@ -67,3 +67,15 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+<pre>
+function solution(num1, num2) {
+    var answer = 0;
+    
+    for(var i = 0; num1 >= num2; i++) {
+        num1 -= num2;
+        answer++;
+    }
+    
+    return answer;
+}
+</pre>

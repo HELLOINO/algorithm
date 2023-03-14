@@ -74,3 +74,18 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+<pre>
+function solution(hp) {
+    var a = 0;
+    
+    a = Math.floor(hp/5);
+    hp = hp%5;
+    
+    a += Math.floor(hp/3);
+    hp = hp%3;
+
+    a += hp;
+    
+    return a;
+}
+</pre>

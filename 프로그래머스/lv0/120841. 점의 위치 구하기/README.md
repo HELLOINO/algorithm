@@ -76,3 +76,8 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+<pre>
+function solution(d) {
+    return d[0]>0?(d[1]>0?1:4):(d[1]>0?2:3);
+}
+</pre>

@@ -64,3 +64,9 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+<pre>
+function solution(n) {
+    return n.map(a => a*2)
+    return n.map(function(a) {return a*2});
+}
+</pre>

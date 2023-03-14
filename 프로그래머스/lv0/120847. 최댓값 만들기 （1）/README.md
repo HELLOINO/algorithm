@@ -64,3 +64,19 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+<pre>
+function solution(n) {
+    var ac = 0;
+    
+    n.forEach((a,b,c) => {
+        n.forEach((a2,b2,c2) => {
+            ac = b!=b2?
+                (ac<a*a2?
+                 a*a2:ac)
+            :ac;
+        });        
+    });
+    
+    return ac;
+}
+</pre>

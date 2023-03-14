@@ -81,3 +81,8 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+<pre>
+function solution(a) {
+    return a>=0&&a<90?1:a==90?2:a==180?4:3;
+}
+</pre>

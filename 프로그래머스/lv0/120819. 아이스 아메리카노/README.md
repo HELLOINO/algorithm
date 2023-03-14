@@ -63,3 +63,17 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+<pre>
+function solution(m) {
+    var a= [0, m];
+    for(;;) {
+        if(a[1]-5500>=0) {
+            a[0]++;
+            a[1]-=5500;
+        } else {
+            break;
+        }
+    }
+    return a;
+}
+</pre>
