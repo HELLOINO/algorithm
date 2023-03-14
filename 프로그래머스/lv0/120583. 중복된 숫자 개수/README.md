@@ -68,3 +68,14 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+<code>
+function solution(a, n) {
+    var an = 0;
+    
+    for(var i = 0; i < a.length; i++) {
+        a[i]==n?
+            an++:null;
+    }
+    return an;
+}
+</code>
