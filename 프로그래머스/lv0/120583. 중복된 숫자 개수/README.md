@@ -68,7 +68,7 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
-
+<pre>
 function solution(a, n) {
     var an = 0;
     
@@ -78,3 +78,4 @@ function solution(a, n) {
     }
     return an;
 }
+</pre>
