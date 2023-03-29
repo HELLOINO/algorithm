@@ -4,11 +4,9 @@ function solution(score) {
     score.map(a => {
         val.push(a[0] + a[1]);
     });
-    
-    console.log(val);
-    
+
     for(var i = 0; i < val.length; i++) {
-        var a = val[val.indexOf(Math.max(...val))];
+        var a = Math.max(...val);
         var count = 0;
         
         for(var j = 0; j < val.length; j++) {
