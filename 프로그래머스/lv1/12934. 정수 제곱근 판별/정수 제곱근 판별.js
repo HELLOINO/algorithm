@@ -7,5 +7,6 @@ function solution(n) {
     } else {
         answer = Math.pow(a+1,2);
     }
+    
     return answer
 }
